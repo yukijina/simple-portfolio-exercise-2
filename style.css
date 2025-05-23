@@ -55,8 +55,8 @@ p {
 
 /* Main photo gallery */
 .cs-col-main {
-  height: 24rem;
-  overflow: hidden;
+  /* height: 24rem;
+  overflow: hidden; */
 }
 
 .cs-main-img {
