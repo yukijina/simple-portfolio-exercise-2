@@ -1,6 +1,9 @@
 :root {
   --black-color: #212121;
   --white-color: #fbfbfb;
+  --white-dark-color: #edebeb;
+  --primary-clor: #f65282;
+  --secondary-color: #2d2727;
 }
 
 *,
@@ -21,6 +24,7 @@ h1 {
   font-size: 4.5rem;
   font-weight: 700;
   letter-spacing: 0.6rem;
+  text-transform: uppercase;
 }
 
 h2,
@@ -29,8 +33,16 @@ h2,
   letter-spacing: 0.2rem;
 }
 
+h3 {
+  color: var(--primary-clor);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
 p {
   color: var(--white-color);
+  margin-bottom: 0;
 }
 
 .navbar-toggler {
@@ -47,6 +59,10 @@ p {
   text-align: center;
   padding: 1.1rem 1.8rem;
   letter-spacing: 0.2rem;
+}
+
+.cs-btn:hover {
+  background: var(--white-dark-color);
 }
 
 /* Header */
@@ -77,6 +93,33 @@ ion-icon:last-child {
 
 .copyright {
   font-size: 0.8rem;
+}
+
+/* ****************** */
+/* About page */
+/* ****************** */
+/*Header */
+.about-logo-box {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.camera-box {
+  background: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 30rem;
+  padding: 0 1rem;
+  margin-bottom: 4rem;
+}
+
+.camera-img {
+  width: 4.4rem;
+}
+
+.camera-text {
+  font-size: 1.12rem;
+  font-weight: 700;
 }
 
 /* Media query */
