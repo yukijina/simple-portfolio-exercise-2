@@ -1,5 +1,6 @@
 :root {
   --black-color: #212121;
+  --white-color: #fbfbfb;
 }
 
 *,
@@ -28,8 +29,12 @@ h2,
   letter-spacing: 0.2rem;
 }
 
+p {
+  color: var(--white-color);
+}
+
 .cs-btn {
-  background: #fff;
+  background: var(--white-color);
   color: var(--black-color);
   border-radius: 50px;
   font-family: 'Montserrat', sans-serif;
@@ -46,4 +51,31 @@ h2,
   background-image: url(/images/hero.png);
   background-size: cover;
   background-position: 0 15%;
+}
+
+/* Main photo gallery */
+.cs-col-main {
+  height: 24rem;
+  overflow: hidden;
+}
+
+.cs-main-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer */
+
+ion-icon {
+  color: var(--white-color);
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+ion-icon:last-child {
+  margin-right: 0;
+}
+
+.copyright {
+  font-size: 0.8rem;
 }
