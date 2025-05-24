@@ -37,7 +37,6 @@ h3 {
   color: var(--primary-clor);
   font-size: 1.1rem;
   text-transform: uppercase;
-  margin-bottom: 2rem;
 }
 
 p {
@@ -104,6 +103,10 @@ ion-icon:last-child {
 /* About page */
 /* ****************** */
 /*Header */
+.about-heading-3 {
+  margin-bottom: 2rem;
+}
+
 .about-logo-box {
   margin-top: 3rem;
   margin-bottom: 4rem;
@@ -130,6 +133,34 @@ ion-icon:last-child {
 /* Gallery  */
 .gallery-header {
   margin-bottom: 10rem;
+}
+
+/* Contact */
+
+.contact-header {
+  margin-bottom: 8.8rem;
+}
+.contact-heading-3 {
+  margin-bottom: 0;
+}
+
+.contact-text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-main {
+  margin-bottom: 10rem;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.contact-link:hover {
+  color: var(--primary-clor);
 }
 
 /* Media query */
