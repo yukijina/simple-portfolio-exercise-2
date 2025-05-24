@@ -45,8 +45,13 @@ p {
   margin-bottom: 0;
 }
 
+/* Navbar */
 .navbar-toggler {
   background-color: var(--white-color);
+}
+
+.nav-link.active {
+  font-weight: 600;
 }
 
 .cs-btn {
@@ -120,6 +125,11 @@ ion-icon:last-child {
 .camera-text {
   font-size: 1.12rem;
   font-weight: 700;
+}
+
+/* Gallery  */
+.gallery-header {
+  margin-bottom: 10rem;
 }
 
 /* Media query */
